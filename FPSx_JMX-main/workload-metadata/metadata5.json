@@ -11,7 +11,8 @@
         "account_file": "accounts.csv"
       },
       "arguments": {
-        "duration_in_min": "30"
+        "key1": "val1",
+        "key2": "val2"
       }
     }
   ]
