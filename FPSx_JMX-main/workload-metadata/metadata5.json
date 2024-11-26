@@ -1,5 +1,6 @@
 {
   "max_duration": 100,
+  "project_name" : "default",
   "tasks": [
     {
       "load_type": "jmeter",
