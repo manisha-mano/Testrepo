@@ -25,13 +25,18 @@
               <stringProp name="Argument.value">${__P(synthetic_user_password,test1234)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
+            <elementProp name="USERNAME_FILE" elementType="Argument">
+              <stringProp name="Argument.name">USERNAME_FILE</stringProp>
+              <stringProp name="Argument.value">${__P(username_file,../user-files/users1.csv)}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">/Users/manisha.kumari/Downloads/Username_new.csv</stringProp>
+          <stringProp name="filename">${USERNAME_FILE}</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
