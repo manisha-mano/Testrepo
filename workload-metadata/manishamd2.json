@@ -1,0 +1,18 @@
+{
+  "max_duration": 100,
+  "tasks": [
+    {
+      "load_type": "jmeter",
+      "version": "5.6.3",
+      "task_name": "logintask1-1",
+      "max_duration_in_mins": 10,
+      "script_name": "manisha-script3.jmx",
+      "data_files": {
+        "account_file": "accounts.csv"
+      },
+      "arguments": {
+        "duration_in_min": "30"
+      }
+    }
+  ]
+}
