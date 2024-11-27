@@ -69,7 +69,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-   &quot;username&quot;: &quot;${Username}&quot;,&#xd;
+   &quot;username&quot;: &quot;mor_2314&quot;,&#xd;
    &quot;password&quot;: &quot;${synthetic_user_password}&quot;&#xd;
 }&#xd;
 </stringProp>
