@@ -7,7 +7,7 @@
       "task_name": "logintask1-1",
       "max_duration_in_mins": 10,
       "script_name": "Manisha_script2.jmx",
-      "users_file": "Username_new.csv",
+      "users_file": "username-new.csv",
       "data_files": {
         "account_file": "accounts.csv"
       },
