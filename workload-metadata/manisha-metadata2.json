@@ -1,0 +1,10 @@
+{
+  "jmeter_version": "5.6.3",
+  "tasks": [
+    {
+      "task_name": "logintask1-2",
+      "script_name": "manisha-script2.jmx",
+      "users_file": "username-new.csv"
+    }
+  ]
+}
